@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+ <button id="tipbtn" type="button" class="btn hidden" data-toggle="modal" data-target="#tipmodal"></button>
+  <div id="tipmodal"  class="modal fade" role="dialog">
+  <div class="modal-dialog" >
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Send Tipr</h4>
+      </div>
+      <div class="modal-body">
+     <div id="tip-form>
+        <div class="form-group">
+            <label for="uname" class="col-lg-2 control-label">Username:</label>
+               <div class="col-lg-10">
+                  <input class="form-control" id="uname" placeholder="Username" type="text">
+                </div>
+            <label for="amount" class="col-lg-2 control-label">Amount:</label>
+               <div class="col-lg-10">
+                  <input class="form-control" id="amount" placeholder="Amount" type="text">
+                </div>
+        </div>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button id="sendtipbtn" type="button" class="btn btn-primary">Send Tip</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<body>
+<!-- jQuery library -->
+<script
+			  src="https://code.jquery.com/jquery-1.12.4.min.js"
+			  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+			  crossorigin="anonymous"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="js/tip.js"></script>
+</body>
+</html>
